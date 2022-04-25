@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    padding: 0px; }
+  
+  html {
+    scroll-behavior: smooth; }
+@import "./main-settings/header";
+@import "./main-settings/section";
+@import "./main-settings/article";
+@import "./main-settings/map";
+@import "./main-settings/aside";
+@import "./main-settings/footer";
+@import "./main-settings/media-queries";

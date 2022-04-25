@@ -1,0 +1,58 @@
+@import "../settings/colors";
+.logo{
+    height: 100%;
+}
+#navegador{
+    font-size: 1.3rem;
+    background-color: $graycolor;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+
+    ul{
+        list-style-type: none;
+        float: right;
+        
+        li{
+            float:left;
+
+            a{
+                display: block;
+                color: $darkcolor;
+                text-decoration: none;
+                padding: 10px 60px;
+                margin: 5px 10px 0px 0px;
+                border-radius: 25px;
+                transition: background-color 1s;
+
+                &:hover{
+                    background-color: $primarycolor;
+                    color: $whitecolor;
+                }
+            }
+            ul{
+                display: none;
+                position: absolute;
+                min-width: 140px;
+                padding-left: 0px
+                
+            }
+        &:hover ul{
+            display: block;
+        }
+        }
+    }
+}
+.checkbtn{
+    font-size: 30px;
+    color: $darkcolor;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}

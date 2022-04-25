@@ -1,0 +1,162 @@
+@import "../settings/colors";
+
+    @media screen and (max-width: 900px){
+
+        /*nav*/
+
+        .checkbtn{
+            display: block;
+            height: 50%;
+        }
+        .menu-items{
+            position: fixed;
+            width: 50%;
+            height: 50vh;
+            background: $rgbacolor;
+            top: 80px;
+            left: 100%;
+            transition: all 0.5s;
+            margin: 0;
+            padding: 0;
+
+            li{
+                padding-top: 30px;
+            }
+        }
+        #navegador{
+            li{
+                ul{
+                    position: relative;
+
+                    li{
+                        a{
+                            font-size: 25px;
+                            color: $whitecolor;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+        .li a:hover, .li a.active{
+            background: none;
+            color: $whitecolor;
+
+        }
+        #check:checked ~ ul{
+            left: 50%;
+        }
+        
+        /*section*/
+
+        .div-section-container{
+            display: grid;
+            justify-content: center;
+        }
+        .main-container{
+            display: grid;
+            justify-items: center;
+        }
+
+        /*main*/
+
+        .text-main-container{
+            width: 70%;
+            padding: 0px;
+
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 10px;
+            }
+            h4{
+                font-size: 15px;
+            }
+        }
+        .map-main-container{
+            iframe{
+                padding-bottom: 30px;
+            }
+        }
+
+        /*aside*/
+        .input-container{
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+        }
+        /*Footer*/
+        .footer-padding{
+            padding: 30px 20px;
+        }
+        .text-footer-container{
+            padding: 0px 20px 0px 0px;
+        }
+
+    }
+    @media screen and (max-width: 426px){
+        .input-container{
+            grid-template-columns: 1fr;
+            grid-row-gap: 15px;
+        }
+    }
+    @media screen and (max-width: 535px){
+        .menu-items{
+            height: 60vh;
+        }
+        #navegador{
+            ul{
+                li{
+                    a{
+                        padding: 10px 20px;
+                    }
+                }
+            }
+        }
+        .logo{
+            height: 80%;
+        }
+        .section-grid{
+            grid-template-columns: 1fr;
+            grid-column-gap: 25px;
+        }
+        .column-section-container{
+            padding-left: 5%;
+
+            h1{
+                font-size: 33px;
+            }
+        }
+        .p-article-container{
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        footer{
+            display: grid;
+            grid-row: 1fr;
+            justify-content: flex-start;
+        }
+        .footer-padding{
+            padding: 0px 0px 0px 20px;
+        }
+        .mas-links{
+            padding: 10px 0px 0px 20px;
+            width: 90%;
+        }
+        .text-footer-container{
+            padding: 0px
+        }
+        .text-footer-container p{
+            font-size: 3vw;
+        }
+        .logo-footer{
+            width: 50%;
+        }
+        .image-section-container{
+            padding: 0px;
+        }
+    }

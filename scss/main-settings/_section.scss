@@ -1,0 +1,57 @@
+@import "../settings/colors";
+.section-container{
+    display: flex;
+    padding:100px 0px;
+    justify-content: center;
+}
+.div-section-container{
+    display: flex;
+    font-family: sans-serif;
+}
+.image-section-container{
+    padding-right: 50px;
+    text-align: center;
+}
+.image-section{
+    max-width: 90%;
+}
+.column-section-container{
+    padding-left: 50px;
+
+    h1{
+        display: block;
+        font-family: sans-serif;
+        font-size: 42px;
+        font-weight: 400;
+        padding-left: 20px;
+    }
+    p{
+        display: block;
+        color: $lightgraycolor;
+        padding-left: 20px;
+    }
+    li{
+        color: $lightgraycolor;
+
+        h4{
+            font-weight: 400;
+            color: $darkcolor;
+            margin: 20px 0px;
+        }
+    }
+    a{
+        display: inline-block;
+        background-color: $darkcolor;
+        color: $whitecolor;
+        border-radius: 20px 40px;
+        padding: 15px;
+        text-decoration: none;
+        border: 0px;
+
+        &:hover{
+            background-color: $zincgraycolor;
+            transition: background-color 1s;
+            color: $darkcolor;
+        }
+    }
+}

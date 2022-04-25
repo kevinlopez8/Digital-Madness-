@@ -1,0 +1,87 @@
+@import "../settings/colors";
+header{
+    background-image: url(../images/fondo-header.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   
+.logo{
+    height: 100%;
+}
+#navegador{
+    font-size: 1.3rem;
+    background-color: $graycolor;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+
+    ul{
+        list-style-type: none;
+        float: right;
+        
+        li{
+            float:left;
+
+            a{
+                display: block;
+                color: $darkcolor;
+                text-decoration: none;
+                padding: 10px 60px;
+                margin: 5px 10px 0px 0px;
+                border-radius: 25px;
+                transition: background-color 1s;
+
+                &:hover{
+                    background-color: $primarycolor;
+                    color: $whitecolor;
+                }
+            }
+            ul{
+                display: none;
+                position: absolute;
+                min-width: 140px;
+                padding-left: 0px
+                
+            }
+        &:hover ul{
+            display: block;
+        }
+        }
+    }
+}
+.checkbtn{
+    font-size: 30px;
+    color: $darkcolor;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.imagen-texto{
+    color: $darkcolor;
+    text-align: center;
+    font-family:initial;
+    font-size: 3vw;
+    padding-top: 70px;
+    top: 100px;
+    font-weight: bold;
+
+    p{
+        color: $darkcolor;
+        padding-top: 2%;
+        font-style: initial;
+        font-size: 1.5vw;
+        margin:0px;
+    }
+    .imagen-texto h1{
+        margin: 0px;
+        padding: 2% ;
+    }
+}

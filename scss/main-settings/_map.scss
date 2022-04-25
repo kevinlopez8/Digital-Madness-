@@ -1,0 +1,52 @@
+@import "../settings/colors";
+.main-container{
+    padding: 40px 0px;
+    background-color: #e4e4e4;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.map-main-container{
+    display: grid;
+}
+.text-main-container{
+    font-family: sans-serif;
+    padding-left: 10%;
+    font-size: 15px;
+    color: $silvercolor;
+    width: 22%;
+
+    h1{
+        font-size: 2.5vw;
+        font-weight: 400;
+        color: $darkcolor
+    }
+    p{
+        font-size: 0.8vw;
+    }
+    h4{
+        color: $darkcolor;
+        font-weight: 400;
+        font-size: 1.5vw;
+        margin-bottom: 0px;
+    }
+}
+.p-text-main-container{
+    color: $graycolor;
+    font-weight: bold;
+
+    p{
+        a{
+            text-decoration: none;
+            color: $darkcolor;
+
+            &:hover{
+                transition: color 0.3s;
+                color: $pinkcolor;
+            }
+        }
+    }
+}
+.main-image{
+    max-width: 100%;
+}
