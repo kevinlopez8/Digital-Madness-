@@ -21,18 +21,16 @@
 
             li{
                 padding-top: 30px;
-            }
-        }
-        #navegador{
-            li{
+
                 ul{
                     position: relative;
 
                     li{
+                    
                         a{
-                            font-size: 25px;
-                            color: $whitecolor;
-                            display: block;
+                        font-size: 25px;
+                        color: $darkcolor;
+                        display: block;
                         }
                     }
                 }

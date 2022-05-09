@@ -23,6 +23,16 @@
     }
     p{
         font-size: 0.8vw;
+
+        a{
+            text-decoration: none;
+            color: $darkcolor;
+    
+            &:hover{
+                transition: color 0.3s;
+                color: $pinkcolor;
+            }
+        }
     }
     h4{
         color: $darkcolor;
@@ -34,18 +44,6 @@
 .p-text-main-container{
     color: $graycolor;
     font-weight: bold;
-
-    p{
-        a{
-            text-decoration: none;
-            color: $darkcolor;
-
-            &:hover{
-                transition: color 0.3s;
-                color: $pinkcolor;
-            }
-        }
-    }
 }
 .main-image{
     max-width: 100%;
