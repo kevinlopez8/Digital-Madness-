@@ -3,7 +3,8 @@ body {
   padding: 0px; }
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth; 
+}
 
 header {
   background-image: url(../images/fondo-header.png);

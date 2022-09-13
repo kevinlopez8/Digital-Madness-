@@ -1,8 +1,10 @@
 body {
     margin: 0px;
-    padding: 0px; }
+    padding: 0px;
+    user-select: none; }
 html {
-    scroll-behavior: smooth; }
+    scroll-behavior: smooth; 
+    }
 @import "./main2-settings/header2";
 @import "./main2-settings/section2";
 @import "./main2-settings/footer2";
