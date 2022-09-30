@@ -24,15 +24,6 @@
 
                 ul{
                     position: relative;
-
-                    li{
-                    
-                        a{
-                        font-size: 25px;
-                        color: $darkcolor;
-                        display: block;
-                        }
-                    }
                 }
             }
         }
@@ -44,6 +35,18 @@
         #check:checked ~ ul{
             left: 50%;
         }
+        .sub-nav{
+            display: none;
+            position: absolute;
+            min-width: 140px;
+            padding-left: 0px
+            
+        }
+        &:hover{
+            position: absolute;
+            display: inline;
+        }
+    
         
         /*section*/
 

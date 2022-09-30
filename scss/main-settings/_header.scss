@@ -39,19 +39,21 @@ header{
                     color: $whitecolor;
                 }
             }
-            ul{
-                display: none;
-                position: absolute;
-                min-width: 140px;
-                padding-left: 0px
-                
-            }
-        &:hover ul{
-            display: block;
-        }
         }
     }
 }
+
+.sub-nav{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    padding-left: 0px
+    
+}
+&:hover{
+display: block;
+}
+
 .checkbtn{
     font-size: 30px;
     color: $darkcolor;
